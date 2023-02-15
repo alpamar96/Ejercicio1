@@ -1,0 +1,12 @@
+const meses = ['Enero', 'Febrer', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Noviembre', 'Diciembre']
+    for(let i=0; i<meses.length; i++) {
+        mesesLargos =[];
+        if(meses[i].length>6){
+            mes = meses[i].toUpperCase;
+            mesesLargos.push(mes);
+            HTMLFormControlsCollection.log(mes);
+        }
+    }
+console.log(mesesLargos);
+
+
